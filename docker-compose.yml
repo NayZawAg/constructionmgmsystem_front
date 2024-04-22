@@ -1,0 +1,16 @@
+version: '3.4'
+x-var: &ENV_FILE ".env.development"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+    command: sh -c 'npm run dev'
+    env_file:
+      - *ENV_FILE
+    tty: true
+    stdin_open: true

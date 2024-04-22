@@ -1,0 +1,8 @@
+name: sanwafront
+script: npm
+cwd: ./
+args: run start
+log_date_format: YYYY-MM-DD HH:mm Z
+out_file: .pm2/logs/out.log
+error_file: .pm2/logs/err.log
+pid_file: .pm2/pid/app-pm_id.pid
