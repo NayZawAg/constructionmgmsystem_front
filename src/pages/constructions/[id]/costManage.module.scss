@@ -1,0 +1,24 @@
+.layout-wrapper {
+  &.layout-static {
+    .layout-main-container {
+      margin-left: 210px;
+      margin-right: 0;
+    }
+  }
+}
+
+.menu-sidebar {
+  position: fixed;
+  width: 200px;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+  user-select: none;
+  padding-top: 0.1rem;
+}
+
+.layout-main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}

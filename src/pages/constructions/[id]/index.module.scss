@@ -1,0 +1,36 @@
+.table {
+  border: 0.5px solid #d2d2d2 !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 90%;
+  font-size: 14px;
+  margin-left: -11px;
+}
+
+.con-info-label {
+  width: 17%;
+  padding: 10px;
+  border-bottom: 2px solid #f6f6f6 !important;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #d2d2d2 !important;
+  font-weight: bold;
+}
+
+.con-info-data {
+  width: 45%;
+  padding: 10px;
+  padding-left: 10px;
+  border: 1px solid #d2d2d2 !important;
+  border-collapse: separate;
+  border-spacing: 5px;
+  text-align: left;
+}
+
+.table > thead > tr:last-child > td:first-child {
+  border-bottom: none !important;
+}
+
+.table > thead > tr:nth-child(odd) .con-info-data {
+  background-color: #f6f6f6 !important;
+}

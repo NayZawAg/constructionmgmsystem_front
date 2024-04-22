@@ -1,0 +1,22 @@
+.table {
+  width: 90%;
+  font-size: 14px !important;
+}
+
+.con-info-label {
+  width: 17%;
+  padding: 10px;
+  font-size: 14px !important;
+  font-weight: bold;
+  // border-bottom: 1px solid #f6f6f6 !important;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: var(--grey_background) !important;
+}
+
+.subject-text {
+  border-radius: 0;
+  height: 36px;
+  font-size: 14px !important;
+  // width: 448px;
+}

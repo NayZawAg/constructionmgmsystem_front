@@ -1,0 +1,76 @@
+@import '@/styles/mixins/media.scss';
+.input {
+    @include media(md) {
+        width: 100%;
+    }
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    @include media(md) {
+        display: block;
+    }
+    .span {
+        margin: 0 .5rem;
+        font-size: 14px;
+        @include media(md) {
+            margin: 0 .25rem;
+        }
+    }
+    .label {
+        min-width: 80px;
+        @include media(md) {
+            min-width: none;
+        }
+    }
+}
+
+.full {
+    width: 100%;
+    height: 10px;
+}
+
+.half {
+    width: 60%;
+    height: 10px;
+    margin: 0px;
+}
+
+.small {
+    width: 40%;
+    height: 10px;
+}
+
+.extra_small {
+    width: 20%;
+    height: 10px;
+}
+
+.dropdown_half {
+    width: 60%;
+    height: 30px;
+}
+
+.dropdown_small {
+    width: 40%;
+    height: 30px;
+}
+
+.dropdown_medium {
+    width: 80%;
+    height: 30px;
+}
+
+.dropdown_full {
+    width: 100%;
+    height: 30px;
+}
+
+.rad_btn {
+    padding-top: 0;
+}
+
+.area_full {
+    width: 100%;
+}
