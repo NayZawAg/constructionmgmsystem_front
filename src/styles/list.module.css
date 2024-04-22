@@ -1,0 +1,48 @@
+.title{
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.inputtext {
+  padding-left: 0;
+}
+.button_add{
+  padding-left: 5rem; 
+  padding-right: 5rem; 
+}
+.button_signup{
+  padding-left: 5rem; 
+  padding-right: 1rem; 
+}
+.row{
+  padding-bottom: 5rem;
+}
+.input_text_div{
+  display: inline-block;
+  width: 20%;
+  vertical-align: middle;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.input_text_main_div{
+  width: 100%;
+}
+.drop_width{
+  width: 60%;
+}
+.input_width{
+  width: 100%;
+}
+.search_btn{
+  margin-left: 20%;
+}
+.lbl{
+  padding-right: 5%;
+}
+.link {
+  color: #00F;
+  text-decoration: underline;
+}
